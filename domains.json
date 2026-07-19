@@ -1,0 +1,2056 @@
+{
+  "records": {
+    "Aca": {
+      "name": "Aca",
+      "gender": "male",
+      "domain": "Aca.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ace": {
+      "name": "Ace",
+      "gender": "male",
+      "domain": "Ace.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Aco": {
+      "name": "Aco",
+      "gender": "male",
+      "domain": "Aco.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Adam": {
+      "name": "Adam",
+      "gender": "male",
+      "domain": "Adam.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Adrijan": {
+      "name": "Adrijan",
+      "gender": "male",
+      "domain": "Adrijan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Aleksandar": {
+      "name": "Aleksandar",
+      "gender": "male",
+      "domain": "Aleksandar.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Andon": {
+      "name": "Andon",
+      "gender": "male",
+      "domain": "Andon.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Andrej": {
+      "name": "Andrej",
+      "gender": "male",
+      "domain": "Andrej.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Angjelko": {
+      "name": "Angjelko",
+      "gender": "male",
+      "domain": "Angjelko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Anton": {
+      "name": "Anton",
+      "gender": "male",
+      "domain": "Anton.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Antonij": {
+      "name": "Antonij",
+      "gender": "male",
+      "domain": "Antonij.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Apostol": {
+      "name": "Apostol",
+      "gender": "male",
+      "domain": "Apostol.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Atanas": {
+      "name": "Atanas",
+      "gender": "male",
+      "domain": "Atanas.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Atanasij": {
+      "name": "Atanasij",
+      "gender": "male",
+      "domain": "Atanasij.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Blagoj": {
+      "name": "Blagoj",
+      "gender": "male",
+      "domain": "Blagoj.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Blagun": {
+      "name": "Blagun",
+      "gender": "male",
+      "domain": "Blagun.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Boban": {
+      "name": "Boban",
+      "gender": "male",
+      "domain": "Boban.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Bogdan": {
+      "name": "Bogdan",
+      "gender": "male",
+      "domain": "Bogdan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Bogomil": {
+      "name": "Bogomil",
+      "gender": "male",
+      "domain": "Bogomil.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Bojan": {
+      "name": "Bojan",
+      "gender": "male",
+      "domain": "Bojan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Boris": {
+      "name": "Boris",
+      "gender": "male",
+      "domain": "Boris.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Borislav": {
+      "name": "Borislav",
+      "gender": "male",
+      "domain": "Borislav.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Borko": {
+      "name": "Borko",
+      "gender": "male",
+      "domain": "Borko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Branislav": {
+      "name": "Branislav",
+      "gender": "male",
+      "domain": "Branislav.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Branko": {
+      "name": "Branko",
+      "gender": "male",
+      "domain": "Branko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Cvetan": {
+      "name": "Cvetan",
+      "gender": "male",
+      "domain": "Cvetan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Cvetko": {
+      "name": "Cvetko",
+      "gender": "male",
+      "domain": "Cvetko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dalibor": {
+      "name": "Dalibor",
+      "gender": "male",
+      "domain": "Dalibor.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Damjan": {
+      "name": "Damjan",
+      "gender": "male",
+      "domain": "Damjan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Daniel": {
+      "name": "Daniel",
+      "gender": "male",
+      "domain": "Daniel.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Darko": {
+      "name": "Darko",
+      "gender": "male",
+      "domain": "Darko.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "David": {
+      "name": "David",
+      "gender": "male",
+      "domain": "David.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Davor": {
+      "name": "Davor",
+      "gender": "male",
+      "domain": "Davor.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dejan": {
+      "name": "Dejan",
+      "gender": "male",
+      "domain": "Dejan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Dimitar": {
+      "name": "Dimitar",
+      "gender": "male",
+      "domain": "Dimitar.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Dimitrij": {
+      "name": "Dimitrij",
+      "gender": "male",
+      "domain": "Dimitrij.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dimo": {
+      "name": "Dimo",
+      "gender": "male",
+      "domain": "Dimo.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dragan": {
+      "name": "Dragan",
+      "gender": "male",
+      "domain": "Dragan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dzvezdan": {
+      "name": "Dzvezdan",
+      "gender": "male",
+      "domain": "Dzvezdan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dzvonimir": {
+      "name": "Dzvonimir",
+      "gender": "male",
+      "domain": "Dzvonimir.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dzvonko": {
+      "name": "Dzvonko",
+      "gender": "male",
+      "domain": "Dzvonko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Elisie": {
+      "name": "Elisie",
+      "gender": "male",
+      "domain": "Elisie.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Emil": {
+      "name": "Emil",
+      "gender": "male",
+      "domain": "Emil.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Evgenij": {
+      "name": "Evgenij",
+      "gender": "male",
+      "domain": "Evgenij.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Filip": {
+      "name": "Filip",
+      "gender": "male",
+      "domain": "Filip.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Gavril": {
+      "name": "Gavril",
+      "gender": "male",
+      "domain": "Gavril.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Gerasim": {
+      "name": "Gerasim",
+      "gender": "male",
+      "domain": "Gerasim.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Gjorgji": {
+      "name": "Gjorgji",
+      "gender": "male",
+      "domain": "Gjorgji.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Gligor": {
+      "name": "Gligor",
+      "gender": "male",
+      "domain": "Gligor.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Goran": {
+      "name": "Goran",
+      "gender": "male",
+      "domain": "Goran.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Gorgi": {
+      "name": "Gorgi",
+      "gender": "male",
+      "domain": "Gorgi.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Grigor": {
+      "name": "Grigor",
+      "gender": "male",
+      "domain": "Grigor.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Grozdan": {
+      "name": "Grozdan",
+      "gender": "male",
+      "domain": "Grozdan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Hristijan": {
+      "name": "Hristijan",
+      "gender": "male",
+      "domain": "Hristijan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Hristo": {
+      "name": "Hristo",
+      "gender": "male",
+      "domain": "Hristo.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Hristofor": {
+      "name": "Hristofor",
+      "gender": "male",
+      "domain": "Hristofor.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Igor": {
+      "name": "Igor",
+      "gender": "male",
+      "domain": "Igor.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Ilarion": {
+      "name": "Ilarion",
+      "gender": "male",
+      "domain": "Ilarion.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ile": {
+      "name": "Ile",
+      "gender": "male",
+      "domain": "Ile.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ilija": {
+      "name": "Ilija",
+      "gender": "male",
+      "domain": "Ilija.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Isaija": {
+      "name": "Isaija",
+      "gender": "male",
+      "domain": "Isaija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ivan": {
+      "name": "Ivan",
+      "gender": "male",
+      "domain": "Ivan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Ivo": {
+      "name": "Ivo",
+      "gender": "male",
+      "domain": "Ivo.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Jakov": {
+      "name": "Jakov",
+      "gender": "male",
+      "domain": "Jakov.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Joakim": {
+      "name": "Joakim",
+      "gender": "male",
+      "domain": "Joakim.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Josif": {
+      "name": "Josif",
+      "gender": "male",
+      "domain": "Josif.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jovan": {
+      "name": "Jovan",
+      "gender": "male",
+      "domain": "Jovan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Jovica": {
+      "name": "Jovica",
+      "gender": "male",
+      "domain": "Jovica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kire": {
+      "name": "Kire",
+      "gender": "male",
+      "domain": "Kire.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kiril": {
+      "name": "Kiril",
+      "gender": "male",
+      "domain": "Kiril.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kiro": {
+      "name": "Kiro",
+      "gender": "male",
+      "domain": "Kiro.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kliment": {
+      "name": "Kliment",
+      "gender": "male",
+      "domain": "Kliment.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Konstantin": {
+      "name": "Konstantin",
+      "gender": "male",
+      "domain": "Konstantin.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kosta": {
+      "name": "Kosta",
+      "gender": "male",
+      "domain": "Kosta.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kostadin": {
+      "name": "Kostadin",
+      "gender": "male",
+      "domain": "Kostadin.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kristijan": {
+      "name": "Kristijan",
+      "gender": "male",
+      "domain": "Kristijan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Krste": {
+      "name": "Krste",
+      "gender": "male",
+      "domain": "Krste.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kuzman": {
+      "name": "Kuzman",
+      "gender": "male",
+      "domain": "Kuzman.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Lazar": {
+      "name": "Lazar",
+      "gender": "male",
+      "domain": "Lazar.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljube": {
+      "name": "Ljube",
+      "gender": "male",
+      "domain": "Ljube.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljuben": {
+      "name": "Ljuben",
+      "gender": "male",
+      "domain": "Ljuben.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljubomir": {
+      "name": "Ljubomir",
+      "gender": "male",
+      "domain": "Ljubomir.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljudmil": {
+      "name": "Ljudmil",
+      "gender": "male",
+      "domain": "Ljudmil.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Luka": {
+      "name": "Luka",
+      "gender": "male",
+      "domain": "Luka.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Maksim": {
+      "name": "Maksim",
+      "gender": "male",
+      "domain": "Maksim.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Marijan": {
+      "name": "Marijan",
+      "gender": "male",
+      "domain": "Marijan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Marjan": {
+      "name": "Marjan",
+      "gender": "male",
+      "domain": "Marjan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Marko": {
+      "name": "Marko",
+      "gender": "male",
+      "domain": "Marko.mk",
+      "status": "taken",
+      "source": "recheck"
+    },
+    "Martin": {
+      "name": "Martin",
+      "gender": "male",
+      "domain": "Martin.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Matej": {
+      "name": "Matej",
+      "gender": "male",
+      "domain": "Matej.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Metodij": {
+      "name": "Metodij",
+      "gender": "male",
+      "domain": "Metodij.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Metodija": {
+      "name": "Metodija",
+      "gender": "male",
+      "domain": "Metodija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mihail": {
+      "name": "Mihail",
+      "gender": "male",
+      "domain": "Mihail.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Milan": {
+      "name": "Milan",
+      "gender": "male",
+      "domain": "Milan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mile": {
+      "name": "Mile",
+      "gender": "male",
+      "domain": "Mile.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Milorad": {
+      "name": "Milorad",
+      "gender": "male",
+      "domain": "Milorad.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mirko": {
+      "name": "Mirko",
+      "gender": "male",
+      "domain": "Mirko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Miroslav": {
+      "name": "Miroslav",
+      "gender": "male",
+      "domain": "Miroslav.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mitko": {
+      "name": "Mitko",
+      "gender": "male",
+      "domain": "Mitko.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Mitre": {
+      "name": "Mitre",
+      "gender": "male",
+      "domain": "Mitre.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mladen": {
+      "name": "Mladen",
+      "gender": "male",
+      "domain": "Mladen.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Najden": {
+      "name": "Najden",
+      "gender": "male",
+      "domain": "Najden.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Natanail": {
+      "name": "Natanail",
+      "gender": "male",
+      "domain": "Natanail.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Naum": {
+      "name": "Naum",
+      "gender": "male",
+      "domain": "Naum.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Nedelko": {
+      "name": "Nedelko",
+      "gender": "male",
+      "domain": "Nedelko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Neofit": {
+      "name": "Neofit",
+      "gender": "male",
+      "domain": "Neofit.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Neven": {
+      "name": "Neven",
+      "gender": "male",
+      "domain": "Neven.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Nikifor": {
+      "name": "Nikifor",
+      "gender": "male",
+      "domain": "Nikifor.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Nikola": {
+      "name": "Nikola",
+      "gender": "male",
+      "domain": "Nikola.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Ognen": {
+      "name": "Ognen",
+      "gender": "male",
+      "domain": "Ognen.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Oliver": {
+      "name": "Oliver",
+      "gender": "male",
+      "domain": "Oliver.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Paskal": {
+      "name": "Paskal",
+      "gender": "male",
+      "domain": "Paskal.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Pavel": {
+      "name": "Pavel",
+      "gender": "male",
+      "domain": "Pavel.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Pavle": {
+      "name": "Pavle",
+      "gender": "male",
+      "domain": "Pavle.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Pece": {
+      "name": "Pece",
+      "gender": "male",
+      "domain": "Pece.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Pero": {
+      "name": "Pero",
+      "gender": "male",
+      "domain": "Pero.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Petar": {
+      "name": "Petar",
+      "gender": "male",
+      "domain": "Petar.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Petko": {
+      "name": "Petko",
+      "gender": "male",
+      "domain": "Petko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Petre": {
+      "name": "Petre",
+      "gender": "male",
+      "domain": "Petre.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Rade": {
+      "name": "Rade",
+      "gender": "male",
+      "domain": "Rade.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Radoslav": {
+      "name": "Radoslav",
+      "gender": "male",
+      "domain": "Radoslav.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Radovan": {
+      "name": "Radovan",
+      "gender": "male",
+      "domain": "Radovan.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Ratko": {
+      "name": "Ratko",
+      "gender": "male",
+      "domain": "Ratko.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Risto": {
+      "name": "Risto",
+      "gender": "male",
+      "domain": "Risto.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Rumen": {
+      "name": "Rumen",
+      "gender": "male",
+      "domain": "Rumen.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Samoil": {
+      "name": "Samoil",
+      "gender": "male",
+      "domain": "Samoil.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Serafim": {
+      "name": "Serafim",
+      "gender": "male",
+      "domain": "Serafim.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Sime": {
+      "name": "Sime",
+      "gender": "male",
+      "domain": "Sime.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Simon": {
+      "name": "Simon",
+      "gender": "male",
+      "domain": "Simon.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Slavko": {
+      "name": "Slavko",
+      "gender": "male",
+      "domain": "Slavko.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Slobodan": {
+      "name": "Slobodan",
+      "gender": "male",
+      "domain": "Slobodan.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Stamen": {
+      "name": "Stamen",
+      "gender": "male",
+      "domain": "Stamen.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Adrijana": {
+      "name": "Adrijana",
+      "gender": "female",
+      "domain": "Adrijana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Agnija": {
+      "name": "Agnija",
+      "gender": "female",
+      "domain": "Agnija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Aleksandra": {
+      "name": "Aleksandra",
+      "gender": "female",
+      "domain": "Aleksandra.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ana": {
+      "name": "Ana",
+      "gender": "female",
+      "domain": "Ana.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Anastasija": {
+      "name": "Anastasija",
+      "gender": "female",
+      "domain": "Anastasija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Aneta": {
+      "name": "Aneta",
+      "gender": "female",
+      "domain": "Aneta.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Angela": {
+      "name": "Angela",
+      "gender": "female",
+      "domain": "Angela.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Angelina": {
+      "name": "Angelina",
+      "gender": "female",
+      "domain": "Angelina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Anka": {
+      "name": "Anka",
+      "gender": "female",
+      "domain": "Anka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ankica": {
+      "name": "Ankica",
+      "gender": "female",
+      "domain": "Ankica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Atanasija": {
+      "name": "Atanasija",
+      "gender": "female",
+      "domain": "Atanasija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Beti": {
+      "name": "Beti",
+      "gender": "female",
+      "domain": "Beti.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Biljana": {
+      "name": "Biljana",
+      "gender": "female",
+      "domain": "Biljana.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Bisera": {
+      "name": "Bisera",
+      "gender": "female",
+      "domain": "Bisera.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Bistra": {
+      "name": "Bistra",
+      "gender": "female",
+      "domain": "Bistra.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Blaga": {
+      "name": "Blaga",
+      "gender": "female",
+      "domain": "Blaga.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Blagica": {
+      "name": "Blagica",
+      "gender": "female",
+      "domain": "Blagica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Blagorodna": {
+      "name": "Blagorodna",
+      "gender": "female",
+      "domain": "Blagorodna.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Blaguna": {
+      "name": "Blaguna",
+      "gender": "female",
+      "domain": "Blaguna.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Bojana": {
+      "name": "Bojana",
+      "gender": "female",
+      "domain": "Bojana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Branka": {
+      "name": "Branka",
+      "gender": "female",
+      "domain": "Branka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Cveta": {
+      "name": "Cveta",
+      "gender": "female",
+      "domain": "Cveta.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dafina": {
+      "name": "Dafina",
+      "gender": "female",
+      "domain": "Dafina.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Damjana": {
+      "name": "Damjana",
+      "gender": "female",
+      "domain": "Damjana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dana": {
+      "name": "Dana",
+      "gender": "female",
+      "domain": "Dana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Danica": {
+      "name": "Danica",
+      "gender": "female",
+      "domain": "Danica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Daniela": {
+      "name": "Daniela",
+      "gender": "female",
+      "domain": "Daniela.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Darija": {
+      "name": "Darija",
+      "gender": "female",
+      "domain": "Darija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dijana": {
+      "name": "Dijana",
+      "gender": "female",
+      "domain": "Dijana.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Divna": {
+      "name": "Divna",
+      "gender": "female",
+      "domain": "Divna.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Domnika": {
+      "name": "Domnika",
+      "gender": "female",
+      "domain": "Domnika.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Doroteja": {
+      "name": "Doroteja",
+      "gender": "female",
+      "domain": "Doroteja.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Draga": {
+      "name": "Draga",
+      "gender": "female",
+      "domain": "Draga.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Dragana": {
+      "name": "Dragana",
+      "gender": "female",
+      "domain": "Dragana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dragica": {
+      "name": "Dragica",
+      "gender": "female",
+      "domain": "Dragica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Dzvezda": {
+      "name": "Dzvezda",
+      "gender": "female",
+      "domain": "Dzvezda.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ekaterina": {
+      "name": "Ekaterina",
+      "gender": "female",
+      "domain": "Ekaterina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Elena": {
+      "name": "Elena",
+      "gender": "female",
+      "domain": "Elena.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Elisaveta": {
+      "name": "Elisaveta",
+      "gender": "female",
+      "domain": "Elisaveta.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Elizabeta": {
+      "name": "Elizabeta",
+      "gender": "female",
+      "domain": "Elizabeta.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ema": {
+      "name": "Ema",
+      "gender": "female",
+      "domain": "Ema.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Emilija": {
+      "name": "Emilija",
+      "gender": "female",
+      "domain": "Emilija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Eva": {
+      "name": "Eva",
+      "gender": "female",
+      "domain": "Eva.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Evangelija": {
+      "name": "Evangelija",
+      "gender": "female",
+      "domain": "Evangelija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Evdokija": {
+      "name": "Evdokija",
+      "gender": "female",
+      "domain": "Evdokija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Evgenija": {
+      "name": "Evgenija",
+      "gender": "female",
+      "domain": "Evgenija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Filimena": {
+      "name": "Filimena",
+      "gender": "female",
+      "domain": "Filimena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Frosina": {
+      "name": "Frosina",
+      "gender": "female",
+      "domain": "Frosina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Gabriela": {
+      "name": "Gabriela",
+      "gender": "female",
+      "domain": "Gabriela.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Galena": {
+      "name": "Galena",
+      "gender": "female",
+      "domain": "Galena.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Gordana": {
+      "name": "Gordana",
+      "gender": "female",
+      "domain": "Gordana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Gorica": {
+      "name": "Gorica",
+      "gender": "female",
+      "domain": "Gorica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Grozda": {
+      "name": "Grozda",
+      "gender": "female",
+      "domain": "Grozda.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Grozdana": {
+      "name": "Grozdana",
+      "gender": "female",
+      "domain": "Grozdana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Hana": {
+      "name": "Hana",
+      "gender": "female",
+      "domain": "Hana.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Hristina": {
+      "name": "Hristina",
+      "gender": "female",
+      "domain": "Hristina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ilina": {
+      "name": "Ilina",
+      "gender": "female",
+      "domain": "Ilina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ilinka": {
+      "name": "Ilinka",
+      "gender": "female",
+      "domain": "Ilinka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Irena": {
+      "name": "Irena",
+      "gender": "female",
+      "domain": "Irena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Irina": {
+      "name": "Irina",
+      "gender": "female",
+      "domain": "Irina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Iskra": {
+      "name": "Iskra",
+      "gender": "female",
+      "domain": "Iskra.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Ivana": {
+      "name": "Ivana",
+      "gender": "female",
+      "domain": "Ivana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ivona": {
+      "name": "Ivona",
+      "gender": "female",
+      "domain": "Ivona.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jadranka": {
+      "name": "Jadranka",
+      "gender": "female",
+      "domain": "Jadranka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jagoda": {
+      "name": "Jagoda",
+      "gender": "female",
+      "domain": "Jagoda.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jana": {
+      "name": "Jana",
+      "gender": "female",
+      "domain": "Jana.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Jasmina": {
+      "name": "Jasmina",
+      "gender": "female",
+      "domain": "Jasmina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jasminka": {
+      "name": "Jasminka",
+      "gender": "female",
+      "domain": "Jasminka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jasna": {
+      "name": "Jasna",
+      "gender": "female",
+      "domain": "Jasna.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jelena": {
+      "name": "Jelena",
+      "gender": "female",
+      "domain": "Jelena.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Jordana": {
+      "name": "Jordana",
+      "gender": "female",
+      "domain": "Jordana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jovana": {
+      "name": "Jovana",
+      "gender": "female",
+      "domain": "Jovana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jovanka": {
+      "name": "Jovanka",
+      "gender": "female",
+      "domain": "Jovanka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Jovka": {
+      "name": "Jovka",
+      "gender": "female",
+      "domain": "Jovka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Julija": {
+      "name": "Julija",
+      "gender": "female",
+      "domain": "Julija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Julijana": {
+      "name": "Julijana",
+      "gender": "female",
+      "domain": "Julijana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kalina": {
+      "name": "Kalina",
+      "gender": "female",
+      "domain": "Kalina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Karolina": {
+      "name": "Karolina",
+      "gender": "female",
+      "domain": "Karolina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Katerina": {
+      "name": "Katerina",
+      "gender": "female",
+      "domain": "Katerina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Katina": {
+      "name": "Katina",
+      "gender": "female",
+      "domain": "Katina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Klimentina": {
+      "name": "Klimentina",
+      "gender": "female",
+      "domain": "Klimentina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Kristina": {
+      "name": "Kristina",
+      "gender": "female",
+      "domain": "Kristina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ksenija": {
+      "name": "Ksenija",
+      "gender": "female",
+      "domain": "Ksenija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Lena": {
+      "name": "Lena",
+      "gender": "female",
+      "domain": "Lena.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Lidija": {
+      "name": "Lidija",
+      "gender": "female",
+      "domain": "Lidija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Liljana": {
+      "name": "Liljana",
+      "gender": "female",
+      "domain": "Liljana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljubena": {
+      "name": "Ljubena",
+      "gender": "female",
+      "domain": "Ljubena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljubica": {
+      "name": "Ljubica",
+      "gender": "female",
+      "domain": "Ljubica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ljubinka": {
+      "name": "Ljubinka",
+      "gender": "female",
+      "domain": "Ljubinka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Magdalena": {
+      "name": "Magdalena",
+      "gender": "female",
+      "domain": "Magdalena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Maja": {
+      "name": "Maja",
+      "gender": "female",
+      "domain": "Maja.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Mara": {
+      "name": "Mara",
+      "gender": "female",
+      "domain": "Mara.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mare": {
+      "name": "Mare",
+      "gender": "female",
+      "domain": "Mare.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Marija": {
+      "name": "Marija",
+      "gender": "female",
+      "domain": "Marija.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Marijana": {
+      "name": "Marijana",
+      "gender": "female",
+      "domain": "Marijana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Marina": {
+      "name": "Marina",
+      "gender": "female",
+      "domain": "Marina.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Marjana": {
+      "name": "Marjana",
+      "gender": "female",
+      "domain": "Marjana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Marta": {
+      "name": "Marta",
+      "gender": "female",
+      "domain": "Marta.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Martina": {
+      "name": "Martina",
+      "gender": "female",
+      "domain": "Martina.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Melanija": {
+      "name": "Melanija",
+      "gender": "female",
+      "domain": "Melanija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mihaela": {
+      "name": "Mihaela",
+      "gender": "female",
+      "domain": "Mihaela.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mihaila": {
+      "name": "Mihaila",
+      "gender": "female",
+      "domain": "Mihaila.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mila": {
+      "name": "Mila",
+      "gender": "female",
+      "domain": "Mila.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Milena": {
+      "name": "Milena",
+      "gender": "female",
+      "domain": "Milena.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Mileva": {
+      "name": "Mileva",
+      "gender": "female",
+      "domain": "Mileva.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Milica": {
+      "name": "Milica",
+      "gender": "female",
+      "domain": "Milica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Milka": {
+      "name": "Milka",
+      "gender": "female",
+      "domain": "Milka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Mira": {
+      "name": "Mira",
+      "gender": "female",
+      "domain": "Mira.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Mirjana": {
+      "name": "Mirjana",
+      "gender": "female",
+      "domain": "Mirjana.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Miroslava": {
+      "name": "Miroslava",
+      "gender": "female",
+      "domain": "Miroslava.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Monika": {
+      "name": "Monika",
+      "gender": "female",
+      "domain": "Monika.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Nada": {
+      "name": "Nada",
+      "gender": "female",
+      "domain": "Nada.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Natalija": {
+      "name": "Natalija",
+      "gender": "female",
+      "domain": "Natalija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Nedelka": {
+      "name": "Nedelka",
+      "gender": "female",
+      "domain": "Nedelka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Nevena": {
+      "name": "Nevena",
+      "gender": "female",
+      "domain": "Nevena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Nevenka": {
+      "name": "Nevenka",
+      "gender": "female",
+      "domain": "Nevenka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Nikolina": {
+      "name": "Nikolina",
+      "gender": "female",
+      "domain": "Nikolina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ognena": {
+      "name": "Ognena",
+      "gender": "female",
+      "domain": "Ognena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Olgica": {
+      "name": "Olgica",
+      "gender": "female",
+      "domain": "Olgica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Olivera": {
+      "name": "Olivera",
+      "gender": "female",
+      "domain": "Olivera.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Paraskeva": {
+      "name": "Paraskeva",
+      "gender": "female",
+      "domain": "Paraskeva.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Pavlina": {
+      "name": "Pavlina",
+      "gender": "female",
+      "domain": "Pavlina.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Radmila": {
+      "name": "Radmila",
+      "gender": "female",
+      "domain": "Radmila.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Rosa": {
+      "name": "Rosa",
+      "gender": "female",
+      "domain": "Rosa.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Roza": {
+      "name": "Roza",
+      "gender": "female",
+      "domain": "Roza.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Rozalija": {
+      "name": "Rozalija",
+      "gender": "female",
+      "domain": "Rozalija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Rumena": {
+      "name": "Rumena",
+      "gender": "female",
+      "domain": "Rumena.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ruzha": {
+      "name": "Ruzha",
+      "gender": "female",
+      "domain": "Ruzha.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Sandra": {
+      "name": "Sandra",
+      "gender": "female",
+      "domain": "Sandra.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Sara": {
+      "name": "Sara",
+      "gender": "female",
+      "domain": "Sara.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Sashka": {
+      "name": "Sashka",
+      "gender": "female",
+      "domain": "Sashka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Silvija": {
+      "name": "Silvija",
+      "gender": "female",
+      "domain": "Silvija.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Simona": {
+      "name": "Simona",
+      "gender": "female",
+      "domain": "Simona.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Slavica": {
+      "name": "Slavica",
+      "gender": "female",
+      "domain": "Slavica.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Slavka": {
+      "name": "Slavka",
+      "gender": "female",
+      "domain": "Slavka.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Sofija": {
+      "name": "Sofija",
+      "gender": "female",
+      "domain": "Sofija.mk",
+      "status": "taken",
+      "source": "bulk-scan"
+    },
+    "Sonja": {
+      "name": "Sonja",
+      "gender": "female",
+      "domain": "Sonja.mk",
+      "status": "free",
+      "source": "bulk-scan"
+    },
+    "Ruzhica": {
+      "name": "Ruzhica",
+      "gender": "female",
+      "domain": "ruzhica.mk",
+      "status": "free",
+      "source": "recheck"
+    },
+    "Violeta": {
+      "name": "Violeta",
+      "gender": "female",
+      "domain": "violeta.mk",
+      "status": "free",
+      "source": "manual-add"
+    },
+    "Suzana": {
+      "name": "Suzana",
+      "gender": "female",
+      "domain": "suzana.mk",
+      "status": "free",
+      "source": "manual-add"
+    },
+    "iva": {
+      "name": "iva",
+      "gender": "?",
+      "domain": "iva.mk",
+      "status": "free",
+      "source": "recheck"
+    },
+    "boki": {
+      "name": "boki",
+      "gender": "?",
+      "domain": "boki.mk",
+      "status": "taken",
+      "source": "recheck"
+    },
+    "Blaze": {
+      "name": "Blaze",
+      "gender": "male",
+      "domain": "Blaze.mk",
+      "status": "taken",
+      "source": "manual-add"
+    },
+    "Bozidar": {
+      "name": "Bozidar",
+      "gender": "male",
+      "domain": "Bozidar.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Danco": {
+      "name": "Danco",
+      "gender": "male",
+      "domain": "Danco.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Donco": {
+      "name": "Donco",
+      "gender": "male",
+      "domain": "Donco.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Dusan": {
+      "name": "Dusan",
+      "gender": "male",
+      "domain": "Dusan.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Dusko": {
+      "name": "Dusko",
+      "gender": "male",
+      "domain": "Dusko.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Ljupco": {
+      "name": "Ljupco",
+      "gender": "male",
+      "domain": "Ljupco.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Milos": {
+      "name": "Milos",
+      "gender": "male",
+      "domain": "Milos.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Mirce": {
+      "name": "Mirce",
+      "gender": "male",
+      "domain": "Mirce.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Nikolce": {
+      "name": "Nikolce",
+      "gender": "male",
+      "domain": "Nikolce.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Sasko": {
+      "name": "Sasko",
+      "gender": "male",
+      "domain": "Sasko.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Saso": {
+      "name": "Saso",
+      "gender": "male",
+      "domain": "Saso.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Slavco": {
+      "name": "Slavco",
+      "gender": "male",
+      "domain": "Slavco.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Cedomir": {
+      "name": "Cedomir",
+      "gender": "male",
+      "domain": "Cedomir.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Saban": {
+      "name": "Saban",
+      "gender": "male",
+      "domain": "Saban.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Natasa": {
+      "name": "Natasa",
+      "gender": "female",
+      "domain": "Natasa.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Ruza": {
+      "name": "Ruza",
+      "gender": "female",
+      "domain": "Ruza.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Saska": {
+      "name": "Saska",
+      "gender": "female",
+      "domain": "Saska.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    },
+    "Snezana": {
+      "name": "Snezana",
+      "gender": "female",
+      "domain": "Snezana.mk",
+      "status": "free",
+      "source": "ascii-normalized"
+    }
+  },
+  "updated": "2026-07-19 23:06:31"
+}

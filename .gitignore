@@ -1,0 +1,9 @@
+# Ignore everything in the home dir by default
+*
+# --- whitelist: the .mk domain dashboard project only ---
+!mk_dashboard.py
+!dashboard.html
+!domains.json
+!macedonian_names_latin.txt
+!check_mk_domains.py
+!.gitignore

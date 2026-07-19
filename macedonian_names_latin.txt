@@ -1,0 +1,13 @@
+# Macedonian given names - Latin alphabet
+# Source: behindthename.com (usage = Macedonian) + Wikipedia 'Macedonian given names' category
+# Male: 147   Female: 141
+#
+# Notes:
+# - Written in the standard Macedonian Latin transcription (diacritics: c, z, s, d, c, dz).
+# - Transliteration variants (e.g. Sasho/Saso, Bozhidar/Bozidar) folded into one canonical form.
+
+## MALE
+Aca, Ace, Aco, Adam, Adrijan, Aleksandar, Andon, Andrej, Angjelko, Anton, Antonij, Apostol, Atanas, Atanasij, Blagoj, Blagun, Blaze, Boban, Bogdan, Bogomil, Bojan, Boris, Borislav, Borko, Bozidar, Branislav, Branko, Cvetan, Cvetko, Dalibor, Damjan, Daniel, Danco, Darko, David, Davor, Dejan, Dimitar, Dimitrij, Dimo, Donco, Dragan, Dusan, Dusko, Dzvezdan, Dzvonimir, Dzvonko, Elisie, Emil, Evgenij, Filip, Gavril, Gerasim, Gjorgji, Gligor, Goran, Gorgi, Grigor, Grozdan, Hristijan, Hristo, Hristofor, Igor, Ilarion, Ile, Ilija, Isaija, Ivan, Ivo, Jakov, Joakim, Josif, Jovan, Jovica, Kire, Kiril, Kiro, Kliment, Konstantin, Kosta, Kostadin, Kristijan, Krste, Kuzman, Lazar, Ljube, Ljuben, Ljubomir, Ljudmil, Ljupco, Luka, Maksim, Marijan, Marjan, Marko, Martin, Matej, Metodij, Metodija, Mihail, Milan, Mile, Milorad, Milos, Mirko, Miroslav, Mirce, Mitko, Mitre, Mladen, Najden, Natanail, Naum, Nedelko, Neofit, Neven, Nikifor, Nikola, Nikolce, Ognen, Oliver, Paskal, Pavel, Pavle, Pece, Pero, Petar, Petko, Petre, Rade, Radoslav, Radovan, Ratko, Risto, Rumen, Samoil, Sasko, Saso, Serafim, Sime, Simon, Slavko, Slavco, Slobodan, Stamen, Cedomir, Saban
+
+## FEMALE
+Adrijana, Agnija, Aleksandra, Ana, Anastasija, Aneta, Angela, Angelina, Anka, Ankica, Atanasija, Beti, Biljana, Bisera, Bistra, Blaga, Blagica, Blagorodna, Blaguna, Bojana, Branka, Cveta, Dafina, Damjana, Dana, Danica, Daniela, Darija, Dijana, Divna, Domnika, Doroteja, Draga, Dragana, Dragica, Dzvezda, Ekaterina, Elena, Elisaveta, Elizabeta, Ema, Emilija, Eva, Evangelija, Evdokija, Evgenija, Filimena, Frosina, Gabriela, Galena, Gordana, Gorica, Grozda, Grozdana, Hana, Hristina, Ilina, Ilinka, Irena, Irina, Iskra, Ivana, Ivona, Jadranka, Jagoda, Jana, Jasmina, Jasminka, Jasna, Jelena, Jordana, Jovana, Jovanka, Jovka, Julija, Julijana, Kalina, Karolina, Katerina, Katina, Klimentina, Kristina, Ksenija, Lena, Lidija, Liljana, Ljubena, Ljubica, Ljubinka, Magdalena, Maja, Mara, Mare, Marija, Marijana, Marina, Marjana, Marta, Martina, Melanija, Mihaela, Mihaila, Mila, Milena, Mileva, Milica, Milka, Mira, Mirjana, Miroslava, Monika, Nada, Natalija, Natasa, Nedelka, Nevena, Nevenka, Nikolina, Ognena, Olgica, Olivera, Paraskeva, Pavlina, Radmila, Rosa, Roza, Rozalija, Rumena, Ruzha, Ruza, Sandra, Sara, Sashka, Saska, Silvija, Simona, Slavica, Slavka, Snezana, Sofija, Sonja
