@@ -1906,14 +1906,14 @@
     },
     "iva": {
       "name": "iva",
-      "gender": "?",
+      "gender": "female",
       "domain": "iva.mk",
       "status": "free",
       "source": "recheck"
     },
     "boki": {
       "name": "boki",
-      "gender": "?",
+      "gender": "male",
       "domain": "boki.mk",
       "status": "taken",
       "source": "recheck"
@@ -2052,5 +2052,5 @@
       "source": "ascii-normalized"
     }
   },
-  "updated": "2026-07-19 23:06:31"
+  "updated": "2026-07-25 19:55:13"
 }

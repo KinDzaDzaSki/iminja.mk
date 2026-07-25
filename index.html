@@ -40,6 +40,16 @@
   .chip.on.taken{background:var(--taken);color:#1a0606;border-color:var(--taken)}
   .chip.on.male{background:var(--male);color:#06140a;border-color:var(--male)}
   .chip.on.female{background:var(--female);color:#1a0610;border-color:var(--female)}
+  /* add bar */
+  .addbar{display:flex;gap:10px;margin:16px 0;flex-wrap:wrap}
+  .addbar textarea{flex:1;min-width:260px;background:var(--panel2);border:1px solid var(--line);
+    color:var(--txt);padding:10px 12px;border-radius:9px;font-size:14px;resize:vertical;min-height:42px;outline:none}
+  .addbar textarea:focus{border-color:var(--acc)}
+  button{background:var(--acc);color:#06121c;border:0;padding:10px 18px;border-radius:9px;
+    font-size:14px;font-weight:600;cursor:pointer}
+  button:hover{filter:brightness(1.08)}
+  button:disabled{opacity:.5;cursor:default}
+  .hint{color:var(--mut);font-size:12px;margin:2px 0 0}
   /* table */
   .count{color:var(--mut);font-size:13px;margin:10px 2px}
   table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);
@@ -57,10 +67,16 @@
   .b-err{background:rgba(210,153,34,.16);color:var(--err)}
   .g{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.4px}
   .g-male{color:var(--male)} .g-female{color:var(--female)} .g-unk{color:var(--mut)}
-  .rk{color:var(--mut);font-size:12px}
-  .note{color:var(--mut);font-size:12px;margin:14px 0 0;padding:10px 14px;
-    background:var(--panel);border:1px solid var(--line);border-radius:9px}
+  .rowbtn{background:transparent;border:1px solid var(--line);color:var(--mut);
+    padding:4px 9px;border-radius:7px;font-size:12px;cursor:pointer}
+  .rowbtn:hover{border-color:var(--acc);color:var(--acc)}
+  .rowbtn:disabled{opacity:.4;cursor:wait}
   .empty{padding:40px;text-align:center;color:var(--mut)}
+  /* toast */
+  #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+    background:var(--panel2);border:1px solid var(--acc);color:var(--txt);
+    padding:12px 20px;border-radius:10px;opacity:0;transition:.3s;pointer-events:none;font-size:14px;z-index:100}
+  #toast.show{opacity:1}
   @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
@@ -71,6 +87,12 @@
 </header>
 <div class="wrap">
   <div class="stats" id="stats"></div>
+
+  <div class="addbar">
+    <textarea id="addbox" placeholder="Add more names to check — comma or space separated (e.g. iva, goran, teodora). Requires the live backend."></textarea>
+    <button id="addbtn" onclick="addNames()">Check &amp; Add</button>
+  </div>
+  <div class="hint">New names are WHOIS-checked live against the MARnet registry. Requires the <a href="https://github.com/KinDzaDzaSki/iminja.mk" style="color:var(--acc)">Python backend</a> — runs locally.</div>
 
   <div class="controls">
     <input type="text" id="search" placeholder="Search name or domain…" oninput="render()">
@@ -95,29 +117,38 @@
         <th onclick="sortBy('domain')">Domain</th>
         <th onclick="sortBy('status')">Status</th>
         <th onclick="sortBy('gender')">Gender</th>
+        <th>↻</th>
       </tr>
     </thead>
     <tbody id="rows"></tbody>
   </table>
   <div class="empty" id="empty" style="display:none">No matches.</div>
-
-  <div class="note">Static snapshot — data collected via WHOIS (whois.marnet.mk). Live re-checks require the <a href="https://github.com/KinDzaDzaSki/iminja.mk" style="color:var(--acc)">Python backend</a>.</div>
 </div>
+<div id="toast"></div>
 
 <script>
 let DATA = {records:[], stats:{}};
 let filt = {status:'all', gender:'all'};
 let sortKey = 'name', sortDir = 1;
+let liveAvailable = null; // null=unknown, true=backend up, false=static only
 
 async function load(){
   const r = await fetch('data.json');
   DATA = await r.json();
   paintStats();
   render();
+  // Check if live backend is available
+  try {
+    const resp = await fetch('/api/list', {method:'HEAD'});
+    liveAvailable = resp.ok;
+  } catch(e) {
+    liveAvailable = false;
+  }
 }
 function paintStats(){
   const s = DATA.stats;
-  document.getElementById('updated').textContent = 'Last updated: ' + (new Date().toLocaleString());
+  document.getElementById('updated').textContent =
+    'Last checked: ' + (DATA.updated || new Date().toLocaleString());
   document.getElementById('stats').innerHTML = `
     <div class="card"><div class="n">${s.total}</div><div class="l">Total</div></div>
     <div class="card free"><div class="n">${s.free}</div><div class="l">Free</div></div>
@@ -156,12 +187,49 @@ function render(){
       <td class="dom">${esc(r.domain)}</td>
       <td><span class="badge ${cls}">${r.status}</span></td>
       <td><span class="g ${gcls}">${esc(r.gender)}</span></td>
+      <td><button class="rowbtn" onclick="recheck('${esc(r.name)}',this)">re-check</button></td>
     </tr>`;
   }).join('');
   document.getElementById('count').textContent = rows.length + ' of ' + DATA.records.length + ' shown';
   document.getElementById('empty').style.display = rows.length? 'none':'block';
 }
 function esc(s){return String(s).replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function toast(msg){
+  const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
+  clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),3000);
+}
+async function addNames(){
+  const box=document.getElementById('addbox');const raw=box.value.trim();
+  if(!raw){toast('Type at least one name');return;}
+  if(liveAvailable===false){toast('Live backend not available — start mk_dashboard.py locally');return;}
+  const btn=document.getElementById('addbtn');btn.disabled=true;btn.textContent='Checking…';
+  try{
+    const r=await fetch('/api/check',{method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({names:raw})});
+    if(!r.ok) throw new Error(r.status+'');
+    const j=await r.json();
+    const free=j.results.filter(x=>x.status==='free').length;
+    toast(`${j.results.length} checked · ${free} free · ${j.results.length-free} taken/err`);
+    box.value='';
+    await load();
+  }catch(e){toast('Error: '+e.message+(e.message===''?' — backend offline?':''));}
+  finally{btn.disabled=false;btn.textContent='Check & Add';}
+}
+async function recheck(name,btn){
+  btn.disabled=true;btn.textContent='…';
+  try{
+    const r=await fetch('/api/recheck/'+encodeURIComponent(name));
+    if(!r.ok) throw new Error(r.status+'');
+    const j=await r.json();
+    toast(name+'.mk → '+j.status);
+    await load();
+  }catch(e){
+    toast(liveAvailable===false
+      ? 'Live backend not available — run mk_dashboard.py'
+      : 'Error: '+e.message);
+  }
+  finally{btn.disabled=false;btn.textContent='re-check';}
+}
 load();
 </script>
 </body>
