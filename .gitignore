@@ -6,4 +6,8 @@
 !domains.json
 !macedonian_names_latin.txt
 !check_mk_domains.py
+!data.json
+!index.html
+!README.md
+!.nojekyll
 !.gitignore
