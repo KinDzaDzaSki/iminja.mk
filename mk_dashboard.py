@@ -124,7 +124,7 @@ class H(BaseHTTPRequestHandler):
     def do_GET(self):
         p = urlparse(self.path)
         if p.path in ("/", "/index.html"):
-            self._send_file(os.path.join(BASE, "dashboard.html"), "text/html")
+            self._send_file(os.path.join(BASE, "index.html"), "text/html")
         elif p.path == "/api/list":
             db = load()
             self._send(200, json.dumps({"records": list(db["records"].values()),
