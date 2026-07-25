@@ -288,9 +288,9 @@
       "source": "bulk-scan"
     },
     {
-      "name": "boki",
+      "name": "Boki",
       "gender": "male",
-      "domain": "boki.mk",
+      "domain": "Boki.mk",
       "status": "taken",
       "source": "recheck"
     },
@@ -911,9 +911,9 @@
       "source": "bulk-scan"
     },
     {
-      "name": "iva",
+      "name": "Iva",
       "gender": "female",
-      "domain": "iva.mk",
+      "domain": "Iva.mk",
       "status": "free",
       "source": "recheck"
     },
@@ -1879,7 +1879,7 @@
     {
       "name": "Ruzhica",
       "gender": "female",
-      "domain": "ruzhica.mk",
+      "domain": "Ruzhica.mk",
       "status": "free",
       "source": "recheck"
     },
@@ -2040,14 +2040,14 @@
     {
       "name": "Suzana",
       "gender": "female",
-      "domain": "suzana.mk",
+      "domain": "Suzana.mk",
       "status": "free",
       "source": "manual-add"
     },
     {
       "name": "Violeta",
       "gender": "female",
-      "domain": "violeta.mk",
+      "domain": "Violeta.mk",
       "status": "free",
       "source": "manual-add"
     }
@@ -2060,5 +2060,5 @@
     "male": 148,
     "female": 145
   },
-  "updated": "2026-07-25 19:55:13"
+  "updated": "2026-07-25 20:01:01"
 }
