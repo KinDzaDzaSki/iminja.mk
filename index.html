@@ -1,98 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mk">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>.mk Domain Availability — Macedonian Names</title>
 <style>
+  /* ═══════════════════════════════════════════
+     DARK THEME — NORD-INSPIRED
+     ═══════════════════════════════════════════ */
   :root{
     --bg:#0f1419; --panel:#1a212b; --panel2:#222c38; --line:#2c3a4a;
     --txt:#e6edf3; --mut:#8b9bb0; --acc:#4cc2ff; --free:#3fb950;
     --taken:#f85149; --err:#d29922; --male:#7ee787; --female:#ff9ecb;
+    --r:12px;
   }
   *{box-sizing:border-box}
-  body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-    background:var(--bg);color:var(--txt);font-size:15px;line-height:1.4}
-  header{padding:22px 26px 10px;border-bottom:1px solid var(--line)}
-  h1{margin:0;font-size:22px;letter-spacing:.3px}
-  h1 small{color:var(--mut);font-weight:400;font-size:13px}
-  .updated{color:var(--mut);font-size:12px;margin-top:4px}
-  .wrap{max-width:1100px;margin:0 auto;padding:0 18px 60px}
-  /* stats */
-  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:18px 0}
-  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
-    padding:14px 16px;position:relative;overflow:hidden}
-  .card .n{font-size:26px;font-weight:700}
-  .card .l{color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.5px}
+  body{
+    margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--txt);font-size:15px;line-height:1.5;
+  }
+  header{padding:18px 20px 8px;border-bottom:1px solid var(--line)}
+  h1{margin:0;font-size:20px;letter-spacing:.2px}
+  h1 small{color:var(--mut);font-weight:400;font-size:12px;display:inline-block}
+  .updated{color:var(--mut);font-size:12px;margin-top:3px}
+
+  .wrap{max-width:1200px;margin:0 auto;padding:0 16px 50px}
+
+  /* ═══ STATS ═══ */
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:16px 0}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+    padding:12px 14px;position:relative;overflow:hidden}
+  .card .n{font-size:24px;font-weight:700}
+  .card .l{color:var(--mut);font-size:11px;text-transform:uppercase;letter-spacing:.4px;margin-top:1px}
   .card.free .n{color:var(--free)} .card.taken .n{color:var(--taken)}
   .card.err .n{color:var(--err)} .card.male .n{color:var(--male)} .card.female .n{color:var(--female)}
-  /* controls */
-  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 6px}
-  input[type=text]{flex:1;min-width:220px;background:var(--panel2);border:1px solid var(--line);
-    color:var(--txt);padding:10px 12px;border-radius:9px;font-size:14px;outline:none}
+
+  /* ═══ ADDBAR ═══ */
+  .addbar{display:flex;gap:10px;margin:14px 0;flex-wrap:wrap}
+  .addbar textarea{flex:1;min-width:220px;background:var(--panel2);border:1px solid var(--line);
+    color:var(--txt);padding:10px 12px;border-radius:9px;font-size:14px;resize:vertical;min-height:42px;outline:none}
+  .addbar textarea:focus{border-color:var(--acc)}
+  button{background:var(--acc);color:#06121c;border:0;padding:9px 16px;border-radius:8px;
+    font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+  button:hover{filter:brightness(1.08)}
+  button:disabled{opacity:.5;cursor:default}
+  .hint{color:var(--mut);font-size:12px;margin:2px 0 0;line-height:1.4}
+  .hint a{color:var(--acc)}
+
+  /* ═══ CONTROLS ═══ */
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0 6px}
+  input[type=text]{flex:1;min-width:180px;background:var(--panel2);border:1px solid var(--line);
+    color:var(--txt);padding:9px 12px;border-radius:9px;font-size:14px;outline:none}
   input[type=text]:focus{border-color:var(--acc)}
-  .chips{display:flex;gap:8px;flex-wrap:wrap}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
   .chip{background:var(--panel2);border:1px solid var(--line);color:var(--mut);
-    padding:7px 13px;border-radius:20px;cursor:pointer;font-size:13px;user-select:none;transition:.15s}
+    padding:6px 11px;border-radius:20px;cursor:pointer;font-size:12px;user-select:none;transition:.12s}
   .chip:hover{border-color:var(--acc)}
   .chip.on{background:var(--acc);color:#06121c;border-color:var(--acc);font-weight:600}
   .chip.on.free{background:var(--free);color:#04130a;border-color:var(--free)}
   .chip.on.taken{background:var(--taken);color:#1a0606;border-color:var(--taken)}
   .chip.on.male{background:var(--male);color:#06140a;border-color:var(--male)}
   .chip.on.female{background:var(--female);color:#1a0610;border-color:var(--female)}
-  /* add bar */
-  .addbar{display:flex;gap:10px;margin:16px 0;flex-wrap:wrap}
-  .addbar textarea{flex:1;min-width:260px;background:var(--panel2);border:1px solid var(--line);
-    color:var(--txt);padding:10px 12px;border-radius:9px;font-size:14px;resize:vertical;min-height:42px;outline:none}
-  .addbar textarea:focus{border-color:var(--acc)}
-  button{background:var(--acc);color:#06121c;border:0;padding:10px 18px;border-radius:9px;
-    font-size:14px;font-weight:600;cursor:pointer}
-  button:hover{filter:brightness(1.08)}
-  button:disabled{opacity:.5;cursor:default}
-  .hint{color:var(--mut);font-size:12px;margin:2px 0 0}
-  /* table */
-  .count{color:var(--mut);font-size:13px;margin:10px 2px}
-  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);
-    border-radius:12px;overflow:hidden}
-  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);font-size:14px}
-  th{background:var(--panel2);color:var(--mut);font-weight:600;font-size:12px;
-    text-transform:uppercase;letter-spacing:.5px;cursor:pointer;user-select:none;position:relative}
+
+  /* ═══ TABLE ═══ */
+  .table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);-webkit-overflow-scrolling:touch}
+  .count{color:var(--mut);font-size:13px;margin:8px 0}
+  table{width:100%;border-collapse:collapse;min-width:480px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);font-size:13px}
+  th{background:var(--panel2);color:var(--mut);font-weight:600;font-size:11px;
+    text-transform:uppercase;letter-spacing:.4px;cursor:pointer;user-select:none;position:relative}
   th:hover{color:var(--txt)}
   tr:last-child td{border-bottom:0}
   tr:hover td{background:var(--panel2)}
-  .dom{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:600}
-  .badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:12px;font-weight:600}
+  .dom{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-weight:600;white-space:nowrap}
+  .badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:600}
   .b-free{background:rgba(63,185,80,.16);color:var(--free)}
   .b-taken{background:rgba(248,81,73,.16);color:var(--taken)}
   .b-err{background:rgba(210,153,34,.16);color:var(--err)}
-  .g{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.4px}
+  .g{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
   .g-male{color:var(--male)} .g-female{color:var(--female)} .g-unk{color:var(--mut)}
   .rowbtn{background:transparent;border:1px solid var(--line);color:var(--mut);
-    padding:4px 9px;border-radius:7px;font-size:12px;cursor:pointer}
+    padding:3px 8px;border-radius:6px;font-size:11px;cursor:pointer;white-space:nowrap}
   .rowbtn:hover{border-color:var(--acc);color:var(--acc)}
   .rowbtn:disabled{opacity:.4;cursor:wait}
   .empty{padding:40px;text-align:center;color:var(--mut)}
-  /* toast */
-  #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+
+  /* ═══ TOAST ═══ */
+  #toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);
     background:var(--panel2);border:1px solid var(--acc);color:var(--txt);
-    padding:12px 20px;border-radius:10px;opacity:0;transition:.3s;pointer-events:none;font-size:14px;z-index:100}
+    padding:11px 18px;border-radius:10px;opacity:0;transition:.3s;pointer-events:none;
+    font-size:13px;z-index:100;white-space:nowrap}
   #toast.show{opacity:1}
-  @media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr)}}
+
+  /* ═══════════════════════════════════════════
+     RESPONSIVE
+     ═══════════════════════════════════════════ */
+  @media(max-width:768px){
+    header{padding:14px 16px 6px}
+    h1{font-size:17px}
+    h1 small{font-size:11px}
+    .wrap{padding:0 12px 40px}
+    .stats{grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0}
+    .card{padding:10px 12px}
+    .card .n{font-size:20px}
+    .addbar textarea{min-width:100%;font-size:13px}
+    .controls{gap:6px}
+    input[type=text]{min-width:140px;font-size:13px}
+    .chips{gap:4px}
+    .chip{font-size:11px;padding:5px 9px}
+    .table-wrap{margin:0 -12px;border-radius:0;border-left:0;border-right:0}
+    th,td{padding:8px 10px;font-size:12px}
+  }
+  @media(max-width:400px){
+    .stats{grid-template-columns:repeat(2,1fr);gap:6px}
+    .card .n{font-size:17px}
+    h1{font-size:15px}
+    .controls{flex-direction:column;align-items:stretch}
+    input[type=text]{min-width:0}
+  }
 </style>
 </head>
 <body>
 <header>
-  <h1>.mk Domain Availability <small>— Macedonian given names (Latin)</small></h1>
+  <h1>.mk Domain <small>— Macedonian Names</small></h1>
   <div class="updated" id="updated">loading…</div>
 </header>
 <div class="wrap">
   <div class="stats" id="stats"></div>
 
   <div class="addbar">
-    <textarea id="addbox" placeholder="Add more names to check — comma or space separated (e.g. iva, goran, teodora). Requires the live backend."></textarea>
+    <textarea id="addbox" placeholder="Add names — comma/space separated (iva, goran, teodora)"></textarea>
     <button id="addbtn" onclick="addNames()">Check &amp; Add</button>
   </div>
-  <div class="hint">New names are WHOIS-checked live against the MARnet registry. Requires the <a href="https://github.com/KinDzaDzaSki/iminja.mk" style="color:var(--acc)">Python backend</a> — runs locally.</div>
+  <div class="hint">New names are WHOIS-checked live against the MARnet registry. Requires the <a href="https://github.com/KinDzaDzaSki/iminja.mk">Python backend</a>.</div>
 
   <div class="controls">
     <input type="text" id="search" placeholder="Search name or domain…" oninput="render()">
@@ -110,18 +150,20 @@
   </div>
 
   <div class="count" id="count"></div>
-  <table>
-    <thead>
-      <tr>
-        <th onclick="sortBy('name')">Name</th>
-        <th onclick="sortBy('domain')">Domain</th>
-        <th onclick="sortBy('status')">Status</th>
-        <th onclick="sortBy('gender')">Gender</th>
-        <th>↻</th>
-      </tr>
-    </thead>
-    <tbody id="rows"></tbody>
-  </table>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th onclick="sortBy('name')">Name</th>
+          <th onclick="sortBy('domain')">Domain</th>
+          <th onclick="sortBy('status')">Status</th>
+          <th onclick="sortBy('gender')">Gender</th>
+          <th>↻</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
   <div class="empty" id="empty" style="display:none">No matches.</div>
 </div>
 <div id="toast"></div>
@@ -130,14 +172,13 @@
 let DATA = {records:[], stats:{}};
 let filt = {status:'all', gender:'all'};
 let sortKey = 'name', sortDir = 1;
-let liveAvailable = null; // null=unknown, true=backend up, false=static only
+let liveAvailable = null;
 
 async function load(){
   const r = await fetch('data.json');
   DATA = await r.json();
   paintStats();
   render();
-  // Check if live backend is available
   try {
     const resp = await fetch('/api/list', {method:'HEAD'});
     liveAvailable = resp.ok;
@@ -193,7 +234,7 @@ function render(){
   document.getElementById('count').textContent = rows.length + ' of ' + DATA.records.length + ' shown';
   document.getElementById('empty').style.display = rows.length? 'none':'block';
 }
-function esc(s){return String(s).replace(/[&<>\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 function toast(msg){
   const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');
   clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('show'),3000);
